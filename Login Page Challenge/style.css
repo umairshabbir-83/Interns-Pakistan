@@ -1,0 +1,96 @@
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0b6ab4;
+}
+
+body {
+  background-color: #589ed9;
+  color: #fff;
+  font-family: ABeeZee;
+}
+
+#container {
+  margin: 0 auto;
+  margin-top: 218px;
+  text-align: center;
+  width: 256px;
+}
+
+#footer p {
+  font-size: large;
+}
+
+#header .fa-weibo {
+  font-size: 64px;
+}
+
+#header h1 {
+  font-size: xx-large;
+}
+
+#login-form .form-group {
+  background-color: #fff;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+#login-form .form-group .form-control {
+  border: none;
+  font-family: ABeeZee;
+  font-size: medium;
+  height: 32px;
+  margin: 0px;
+  outline: none;
+  padding: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-indent: 16px;
+  width: 100%;
+}
+
+#login-form .form-group input[type="email"] {
+  border-bottom: 1px solid #ccc;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+}
+
+#login-form .form-group input[type="password"] {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+}
+
+/* #login-form input {
+  border-radius: 8px;
+} */
+
+#login-form input[type="submit"] {
+  background-color: #2186d4;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  display: block;
+  font-family: ABeeZee;
+  font-size: large;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: #0b6ab4;
+  cursor: pointer;
+}
