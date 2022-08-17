@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  font-family: ABeeZee;
+  font-size: large;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 33px;
+  width: 100%;
+}
+
+/* Article Author Section */
+
+.article {
+  display: flex;
+  flex-direction: row;
+  height: 280px;
+  max-width: 720px;
+}
+
+.article-author {
+  align-items: center;
+  display: flex;
+}
+
+.article-author .author-avatar {
+  border-radius: 50%;
+  margin-right: 12px;
+  width: 44px;
+}
+
+.article-author .author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-author .author-info .author-name {
+  font-weight: bolder;
+  margin-bottom: 2px;
+}
+
+.article-author .author-info .date {
+  font-weight: bold;
+}
+
+.article-author .author-info span {
+  font-size: small;
+}
+
+.article-author .share-icon {
+  height: 33px;
+  margin-left: auto;
+}
+
+.article-mobile-share {
+  display: none;
+}
+
+i.fa.fa-apple {
+  background: #f0f0f0;
+  border-radius: 50%;
+  height: 100%;
+  line-height: 44px;
+  margin-right: 12px;
+  text-align: center;
+  width: 44px;
+}
+
+/* Article Preview Section */
+
+.article-preview {
+  background: url("https://images.unsplash.com/photo-1591843336309-cbf414ad7978");
+  background-size: cover;
+  background-position: top center;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  flex: 1.2;
+  height: 280px;
+  width: 320px;
+}
+
+/* Article Info Section */
+
+.article-info {
+  background: #ffff;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  flex: 1.2;
+  position: relative;
+  padding-bottom: 33px;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 22px;
+}
+
+.article-info h1 {
+  font-size: larger;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.article-info p {
+  font-size: small;
+  line-height: 1.5;
+  margin-bottom: 22px;
+  padding-right: 12px;
+  text-align: justify;
+}
+
+/* Media Queries */
+@media screen and (max-width: 750px) {
+  .article {
+    flex-direction: column;
+    height: 100%;
+    max-width: 520px;
+  }
+  .article-info {
+    background: #ffff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    flex: 1.2;
+  }
+  .article-preview {
+    background-position: 100% center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    flex: 1.2;
+    width: 100%;
+  }
+}
