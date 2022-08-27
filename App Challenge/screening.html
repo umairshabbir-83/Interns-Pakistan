@@ -27,15 +27,15 @@
                     style="color: #757678; margin-right: 12px; margin-top: 33px; position: fixed; right: 0px; top: 0px;"></i></a>
         </div>
     </div>
-    <div class="container" style="margin-top: 67px;">
-        <div class="row d-grid gap-2">
-            <p class="h1">Do you have Fever <i class="fa-solid fa-face-thermometer"></i> above 101.4°F?</p>
-            <img src="assets/fever.png" style="margin-left: 15%; width: 67%;">
-            <a class="btn btn-primary btn-block" href="result.html" type="button"><i class="fa-solid fa-check"></i>
-                Yes, I Do</a>
-            <a class="btn btn-primary btn-block" href="result.html" type="button"><i class="fa-solid fa-xmark"></i>
-                No, I Don't</a>
-        </div>
+    <div class="row gap-3">
+        <p class="h1">Do you have Fever above 101.4°F?</p>
+        <img src="assets/fever.png" style="width: 100%;">
+        <a class="btn btn-primary btn-block" onclick="recordAnswer(1,1,2)" style="margin-left: 10%; width: 83%;"
+            type="button"><i class="fa-solid fa-check"></i>
+            Yes, I Do</a>
+        <a class="btn btn-primary btn-block" onclick="recordAnswer(1,2,2)"
+            style="margin-bottom: 10%; margin-left: 10%; width: 83%;" type="button"><i class="fa-solid fa-xmark"></i>
+            No, I Don't</a>
     </div>
 </body>
 
