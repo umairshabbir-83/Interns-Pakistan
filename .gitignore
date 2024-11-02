@@ -1,14 +1,1 @@
-.DS_*
-*.log
-**/*.back.*
-**/*.backup.*
-logs
 
-bower_components
-node_modules
-
-*.sublime*
-
-psd
-sketch
-thumb
